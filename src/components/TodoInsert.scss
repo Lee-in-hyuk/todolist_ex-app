@@ -1,0 +1,25 @@
+.TodoInsert{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #dfdfdf;
+    justify-content: center;
+    align-items: center;
+    input {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    button {
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 50%;
+        appearance: none;
+        background-color: red;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        
+    }
+}
